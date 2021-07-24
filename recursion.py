@@ -10,4 +10,5 @@ def recursion(n, dp):
   return dp[n]
 
 n = int(input())
-print(recursion(n, [0] * (n+1)))
+dp = [0] * (n+1)
+print(recursion(n, dp)
