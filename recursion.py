@@ -3,3 +3,5 @@ def recursion(n):
     return 1
 
   return recursion(n-1) + recursion(n-2)
+
+print(recursion(int(input())))
